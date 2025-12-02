@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="ru"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Customer Journey Maps — Web3 Academy&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>* {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #f5f7fa;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 1600px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 20px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding-bottom: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-bottom: 3px solid #e5e7eb;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.header h1 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 36px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #1e293b;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.header .subtitle {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #64748b;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 500;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.cards-grid {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 32px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-link {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: inherit;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #f9fafb;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #e5e7eb;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 220px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.2s ease, box-shadow 0.2s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-4px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 12px 30px rgba(15, 23, 42, 0.15);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-title {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 22px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-title .emoji {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 28px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-subtitle {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0.9;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #475569;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-grow: 1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-meta {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.badge {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 4px 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 999px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #f3f4f6;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #4b5563;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-footer {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 16px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-top: 1px solid #e5e7eb;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #2563eb;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-footer .arrow {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Цветовые темы */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-autonomy .card-header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, #2563eb 0%, #1e40af 60%, #dc2626 100%);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-pension .card-header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, #059669 0%, #047857 60%, #22c55e 100%);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-structure .card-header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, #f59e0b 0%, #d97706 60%, #f97316 100%);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-investors .card-header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 60%, #8b5cf6 100%);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 640px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.header h1 {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>font-size: 28px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>padding: 24px 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header class="header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;Customer Journey Maps&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="subtitle"&gt;Путь разных сегментов к покупке обучения Web3 Academy&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="cards-grid"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Адепты автономии --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="cjm_autonomy_advocates.html" class="card-link"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;article class="card card-autonomy"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="card-title"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="emoji"&gt;🔓&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Адепты автономии</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="card-subtitle"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Независимость от государства, банков и внешнего контроля</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Пережили блокировки счетов, санкции и ограничения. Ищут способ сохранить контроль над капиталом.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="card-meta"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="badge"&gt;~30% базы&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="badge"&gt;3–9 месяцев пути&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-footer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span&gt;Открыть карту пути&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="arrow"&gt;→&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Создатели пенсии --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="cjm_pension_builders.html" class="card-link"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;article class="card card-pension"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="card-title"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="emoji"&gt;🏖️&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Создатели пенсии</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="card-subtitle"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Хотят создать пассивный доход и выйти на раннюю "пенсию"</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Устали от хаотичного контента. Ищут системность и стратегию для стабильного дохода.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="card-meta"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="badge"&gt;~35% базы&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="badge"&gt;6–12 месяцев пути&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-footer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span&gt;Открыть карту пути&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="arrow"&gt;→&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Искатели структуры --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="cjm_structure_seekers.html" class="card-link"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;article class="card card-structure"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="card-title"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="emoji"&gt;🧩&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Искатели структуры</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="card-subtitle"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Хотят перестать тонуть в хаосе YouTube и получить систему</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Много информации, мало понимания. Нужна карта, структура и ведение за руку.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="card-meta"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="badge"&gt;~15% базы&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="badge"&gt;8–12 месяцев пути&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-footer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span&gt;Открыть карту пути&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="arrow"&gt;→&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Продвинутые инвесторы --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="cjm_advanced_investors.html" class="card-link"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;article class="card card-investors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="card-title"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="emoji"&gt;📈&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Продвинутые инвесторы</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="card-subtitle"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Управляют капиталом и хотят профессионально освоить DeFi</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Инвеступравляющие и предприниматели, ищущие новый класс активов и рост доходности.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="card-meta"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="badge"&gt;~20% базы&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="badge"&gt;4–8 месяцев пути&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-footer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span&gt;Открыть карту пути&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="arrow"&gt;→&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
